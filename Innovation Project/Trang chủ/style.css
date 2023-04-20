@@ -1,0 +1,356 @@
+* {
+  font-family: customfont1;
+}
+
+body {
+
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* đây là phần nền màu xanh*/
+
+.background {
+  background-position: cover;
+  top: 25%;
+  left: 20%;
+  position: absolute;
+  background-color: #41D399;
+  width: 1435px;
+  height: 600px;
+}
+
+/* đây là phần chữ agency*/
+.agency {
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  font-size: 60px;
+}
+
+/*Đây là ô see more*/
+.seemore {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  left: 90%;
+  top: 80%;
+  position: absolute;
+  width: 99px;
+  height: 40px;
+  background: #FFB87A;
+  border-radius: 100px;
+}
+
+/* đây là ô thứ nhất trên màn hình*/
+
+.box1 {
+
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  width: 15%;
+  height: 40%;
+  animation: changeColor 3s infinite;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: white;
+  }
+
+  50% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: whitesmoke;
+  }
+}
+
+/* đây là ô chữ ở bên dưới mỗi hình*/
+.chat {
+  color: black;
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  font-size: 200%;
+}
+
+/* đây là ô thứ hai trên màn hình*/
+.box2 {
+  position: absolute;
+  top: 45%;
+  left: 55%;
+  width: 15%;
+  height: 40%;
+  animation: changeColor 3s infinite;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* đây là ô thứ ba trên màn hình*/
+.box3 {
+  position: absolute;
+  top: 45%;
+  left: 80%;
+  width: 15%;
+  height: 40%;
+  animation: changeColor 3s infinite;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* đây thanh menu bar ở phần footer*/
+
+.bar a {
+  text-decoration: none;
+}
+
+.bar ul {
+  position: absolute;
+  list-style-type: none;
+
+  display: flex;
+  justify-content: center;
+  top: 10%;
+  left: 5%;
+}
+
+.bar li {
+  color: white;
+  margin-right: 200px;
+
+}
+
+.footer {
+  background-position: cover;
+  top: 94%;
+  left: 20%;
+  position: absolute;
+  background-color: #FFB87A;
+  width: 1435px;
+  height: 400px;
+}
+
+ul li:hover {
+
+  color: royalblue;
+}
+
+ul li:active {
+
+  color: white;
+}
+
+
+/* đây thanh menu bar ở phần footer*/
+
+/*Đây là hàng 1 của footer*/
+.bar1 a {
+  text-decoration: none;
+}
+
+.bar1 ul {
+
+  position: absolute;
+  list-style-type: none;
+  display: inl;
+  justify-content: center;
+  top: 25%;
+  left: 5%;
+}
+
+.bar1 ul li {
+  color: white;
+  padding: 10px 0;
+  /* Tạo khoảng cách 10px giữa chúng theo chiều dọc */
+}
+
+
+/*Đây là hàng 2 của footer*/
+.bar2 a {
+  text-decoration: none;
+}
+
+.bar2 ul {
+  position: absolute;
+  list-style-type: none;
+  display: inl;
+  justify-content: center;
+  top: 25%;
+  left: 24.3%;
+}
+
+.bar2 ul li {
+  color: white;
+  padding: 10px 0;
+  /* Tạo khoảng cách 10px giữa chúng theo chiều dọc */
+}
+
+/*Đây là hàng 3 của footer*/
+.bar3 a {
+  text-decoration: none;
+}
+
+.bar3 ul {
+  position: absolute;
+  list-style-type: none;
+  justify-content: center;
+  top: 25%;
+  left: 44%;
+}
+
+.bar3 ul li {
+  color: white;
+  padding: 10px 0;
+  /* Tạo khoảng cách 10px giữa chúng theo chiều dọc */
+}
+
+/*Chu Gobook*/
+.chugobook {
+  position: absolute;
+  color: white;
+  top: 14%;
+  left: 75%;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 150%;
+  /* or 69px */
+  letter-spacing: 0.5px;
+}
+
+.subcribe {
+  position: absolute;
+  color: white;
+  top: 35%;
+  left: 75%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+
+}
+
+.background_sub {
+  top: 47%;
+  left: 75%;
+  width: 300px;
+  height: 70px;
+  position: absolute;
+  background: #2CD997;
+  border-radius: 8px;
+}
+
+.background_sub2 {
+  top: 50%;
+  left: 84%;
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 13px 30px;
+  gap: 10px;
+  border-radius: 12px;
+
+}
+
+.placeholder {
+  position: absolute;
+  top: 53%;
+  left: 75.7%;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  /* or 24px */
+}
+
+.chusubcribe {
+  position: absolute;
+  top: 53%;
+  left: 87%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+}
+
+.facebook {
+  position: absolute;
+  top: 90%;
+  left: 75%;
+}
+
+.twitter {
+  position: absolute;
+  top: 90%;
+  left: 80%;
+}
+
+.linkedin {
+  position: absolute;
+  top: 90%;
+  left: 85%;
+
+}
+
+@font-face {
+  font-family: 'customfont2';
+  src: url(./Font/font1.ttf);
+}
+
+@font-face {
+  font-family: 'customfont1';
+  src: url(./Font/font2.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Hình 1*/
+.slideshow {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.slide {
+  display: none;
+  max-width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.active {
+  display: block;
+  opacity: 1;
+}
